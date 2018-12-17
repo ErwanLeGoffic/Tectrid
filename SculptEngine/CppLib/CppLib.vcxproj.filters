@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{5cb93c02-eb26-4f8d-adbd-d20913b30f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{fa03832d-4c69-4604-acbf-0bbca369aea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mesh">
+      <UniqueIdentifier>{6da6515b-69de-40b2-9489-67ed6435dd8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Collisions">
+      <UniqueIdentifier>{e4b94379-6ddb-465e-bb09-e344634b393b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Brushes">
+      <UniqueIdentifier>{be0a4e0d-89f3-46b7-93ec-a81e2785fdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Recorder">
+      <UniqueIdentifier>{54f1c3db-8c23-4348-9a39-e07c9be6241d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Math\Vector.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\GenBox.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\GenSphere.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collisions\Ray.h">
+      <Filter>src\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SculptEngine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Math.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\MeshLoader.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\Octree.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\Mesh.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\SubMesh.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\Brush.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\BrushInflate.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\BrushFlatten.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Plane.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\BrushDrag.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitor.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorBuildAndCollectSubMeshes.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorCollectBBox.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorGetIntersection.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collisions\BBox.h">
+      <Filter>src\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorRecomputeBBox.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorGetAverageInRange.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorExtractOutOfCellsBoundGeom.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorPurgeEmptyCell.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorRetessellateInRange.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorHandlePendingRemovals.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\BrushDig.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Recorder\CommandRecorder.h">
+      <Filter>src\Recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\MeshRecorder.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\BrushDraw.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\OctreeVisitorCollectVertices.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\BrushSmear.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\CSG.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collisions\BSphere.h">
+      <Filter>src\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collisions\TriangleToTriangle.h">
+      <Filter>src\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\GenCylinder.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\GenPyramid.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\Loop.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\BrushSmooth.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\PlaneDouble.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\VectorDouble.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\CSG_Bsp.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collisions\BSphereDouble.h">
+      <Filter>src\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Matrix.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\ThicknessHandler.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brushes\BrushCADDrag.h">
+      <Filter>src\Brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\Retessellate.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Math\Vector.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\GenBox.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\GenSphere.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collisions\Ray.cpp">
+      <Filter>src\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SculptEngine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\MeshLoader.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\Octree.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\Mesh.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\SubMesh.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\BrushInflate.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\BrushFlatten.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\Brush.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Math.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\BrushDrag.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorBuildAndCollectSubMeshes.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorCollectBBox.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorGetIntersection.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collisions\BBox.cpp">
+      <Filter>src\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorRecomputeBBox.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorGetAverageInRange.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorExtractOutOfCellsBoundGeom.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorPurgeEmptyCell.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorRetessellateInRange.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorHandlePendingRemovals.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\BrushDig.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Recorder\CommandRecorder.cpp">
+      <Filter>src\Recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\MeshRecorder.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\BrushDraw.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\OctreeVisitorCollectVertices.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\BrushSmear.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\CSG.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collisions\TriangleToTriangle.cpp">
+      <Filter>src\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\GenCylinder.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\GenPyramid.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\Loop.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\BrushSmooth.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\CSG_Bsp.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Matrix.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\ThicknessHandler.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brushes\BrushCADDrag.cpp">
+      <Filter>src\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\Retessellate.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\makefile" />
+    <None Include="src\webmake.bat" />
+  </ItemGroup>
+</Project>
