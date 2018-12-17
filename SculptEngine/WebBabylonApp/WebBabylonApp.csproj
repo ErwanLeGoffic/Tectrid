@@ -23,10 +23,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="appload.js" />
-    <Content Include="index_dood_website.html" />
     <Content Include="src\app.css" />
     <Content Include="index.html" />
-    <Content Include="index_dood.html" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -159,8 +157,6 @@ robocopy "$(ProjectDir)\logos " "$(ProjectDir)\build\logos " %25rc_options%25 &g
 
 set file_list=^
         index.html ^
-        index_dood.html ^
-        index_dood_website.html ^
         appload.js ^
         favicon.ico
 robocopy "$(ProjectDir) " "$(ProjectDir)build\ " %25file_list%25 %25rc_options%25 &gt; nul

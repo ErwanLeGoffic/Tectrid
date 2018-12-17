@@ -20,12 +20,10 @@ all: $(SOURCES) $(OUTPUT_ASMJS) $(OUTPUT_WASM)
 $(OUTPUT_ASMJS): $(SOURCES) 
 	$(CC) $(SOURCES) --bind -std=c++11 -I . $(FLAGS_RELEASE_ASMJS) -o $(OUTPUT_ASMJS).js
 	copy $(OUTPUT_ASMJS).* ..\..\WebBabylonApp\src
-	copy $(OUTPUT_ASMJS).* ..\..\WebBabylonAppDood\src
-
+	
 $(OUTPUT_WASM): $(SOURCES)
 	$(CC) $(SOURCES) --bind -std=c++11 -I . $(FLAGS_RELEASE_WASM) -o $(OUTPUT_WASM).js
 	copy $(OUTPUT_WASM).* ..\..\WebBabylonApp\src
-	copy $(OUTPUT_WASM).* ..\..\WebBabylonAppDood\src
 
 clean:
 	del $(OUTPUT_ASMJS).*

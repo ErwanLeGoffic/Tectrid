@@ -1,0 +1,26 @@
+SculptEngine/.vs/*
+SculptEngine/CppLib/Debug/*
+SculptEngine/CppLib/Debug - Optimized/*
+SculptEngine/CppLib/Release/*
+SculptEngine/CppLib/Release - DebugInfos/*
+SculptEngine/CppLib/src/cpplib.js
+SculptEngine/DesktopOgsApp/Debug/*
+SculptEngine/DesktopOgsApp/Debug - Optimized/*
+SculptEngine/DesktopOgsApp/Release/*
+SculptEngine/DesktopOgsApp/Release - DebugInfos/*
+SculptEngine/UnityPlugin/Debug/*
+SculptEngine/UnityPlugin/Debug - Optimized/*
+SculptEngine/UnityPlugin/Release/*
+SculptEngine/UnityPlugin/Release - DebugInfos/*
+SculptEngine/WebBabylonApp/bin/*
+SculptEngine/WebBabylonApp/build/*
+SculptEngine/WebBabylonApp/src/cpplib.js
+SculptEngine/WebBabylonApp/src/cpplib_wasm.wasm
+SculptEngine/WebBabylonApp/src/cpplib_wasm.js
+SculptEngine/WebBabylonApp/src/app.js
+SculptEngine/WebBabylonApp/src/app.js.map
+SculptEngine/WebBabylonApp/obj/*
+SculptEngine/SculptEngine.sdf
+SculptEngine/SculptEngine.VC.opendb
+SculptEngine/CppLib/src/cpplib_wasm.wasm
+SculptEngine/CppLib/src/cpplib_wasm.js

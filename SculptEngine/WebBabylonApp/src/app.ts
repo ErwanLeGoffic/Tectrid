@@ -206,11 +206,11 @@ class AppMain
         {
             if(saveButton.getAttribute("userdata") == "password")
             {
-                bootbox.prompt("To access this functionality, please enter your Dood access number", function (result)
+                bootbox.prompt("To access this functionality, please enter your access number", function (result)
                 {
                     if(result == null)  // Cancel button was clicked
                         return;
-                    let codes = ["villettemakerz", "598124", "482976", "197583", "978613", "846512", "465298", "246978", "383794", "641767", "282975"];
+                    let codes = ["598124", "482976", "197583", "978613", "846512", "465298", "246978", "383794", "641767", "282975"];
                     let matching: boolean = false;
                     for(let i = 0; i < codes.length; ++i)
                     {
